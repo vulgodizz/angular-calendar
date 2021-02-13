@@ -1,7 +1,7 @@
 {
-  "name": "angular-calendar-person",
+  "name": "angular-calendar-edited",
   "version": "0.28.23",
-  "description": "A calendar component for angular 6.0+ that can display events on a month, week or day view",
+  "description": "A calendar component for angular 6.0+ that can display events on a month, week or day view edited by VulgoDizz",
   "funding": {
     "url": "https://github.com/sponsors/mattlewis92"
   },
