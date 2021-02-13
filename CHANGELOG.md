@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.28.23](https://github.com/mattlewis92/angular-calendar/compare/v0.28.22...v0.28.23) (2021-02-13)
+
+
+### Features
+
+* add text color on event ([3c81fe1](https://github.com/mattlewis92/angular-calendar/commit/3c81fe1376d310fcea262a914b74f26562813a60))
+
+
+### Bug Fixes
+
+* install lib on build fork ([55125fc](https://github.com/mattlewis92/angular-calendar/commit/55125fc9921826de05d2eddd3e46453ad23aa080))
+* tag ([2fb1166](https://github.com/mattlewis92/angular-calendar/commit/2fb1166d76ca97f9c4b2a3aa7f9e4929e3fc7181))
+
 ### [0.28.22](https://github.com/mattlewis92/angular-calendar/compare/v0.28.21...v0.28.22) (2020-10-20)
 
 
