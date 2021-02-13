@@ -1,7 +1,7 @@
 {
-  "name": "angular-calendar-edited",
+  "name": "angular-calendar",
   "version": "0.28.23",
-  "description": "A calendar component for angular 6.0+ that can display events on a month, week or day view edited by VulgoDizz",
+  "description": "A calendar component for angular 6.0+ that can display events on a month, week or day view",
   "funding": {
     "url": "https://github.com/sponsors/mattlewis92"
   },
@@ -24,7 +24,7 @@
     "lint": "run-s lint:ts lint:styles",
     "commit": "git-cz",
     "codecov": "cat coverage/lcov.info | codecov",
-    "prerelease": "",
+    "prerelease": "npm run test",
     "pretest:schematics": "npm run build:copy-package-json",
     "release:git-add": "git add package.json package-lock.json",
     "release:git-commit": "git commit -m 'chore: bump version number'",
@@ -38,7 +38,8 @@
     "gh-pages:demos": "ng build --prod",
     "gh-pages:compodoc": "compodoc -p tsconfig-compodoc.json -d dist/demos/docs --disableGraph --disableCoverage --disablePrivate --disableInternal --disableLifeCycleHooks --disableProtected --gaID UA-63367573-2",
     "gh-pages:deploy": "ng deploy",
-    "gh-pages": "run-s build:clean gh-pages:demos gh-pages:compodoc gh-pages:deploy build:clean"
+    "gh-pages": "run-s build:clean gh-pages:demos gh-pages:compodoc gh-pages:deploy build:clean",
+    "prepare": "npm run build"
   },
   "schematics": "./schematics/collection.json",
   "config": {
